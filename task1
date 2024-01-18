@@ -1,0 +1,44 @@
+Based on Day 1 (today) training.  Below is the assignment for you all.  Complete it before Day 2 session.
+
+Create console application called "ITGTraining24" using .Net Framework in Visual Studio
+Create sample class called "MyFirstClass" and try to add any external packages from NuGet like SQL/Azure etc.,
+In the above Class, declare string variable
+Assign any text to the variable and display it as output ,using console class
+Clean and build the application (make sure build is good without any errors)
+Run the application to see the string variable value in the out put console
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ITGTraining24
+{
+    class Program
+    {
+        public string str;
+        public int age;
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ITGTraining24
+{
+    class MyFirstClass
+    {
+        static void Main(string[] args)
+        {
+            Program obj = new Program();
+            Console.WriteLine("Enter your Input");
+            obj.str = Console.ReadLine();
+            Console.WriteLine(obj.str);
+        }
+    }
+}
